@@ -1,0 +1,10 @@
+{
+  "name": "api-automation-js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run collections/bookstore_collection.json -e env/env.json -r cli,html --reporter-html-export reports/report.html"
+  },
+  "devDependencies": {
+    "newman": "^6.0.0"
+  }
+}
