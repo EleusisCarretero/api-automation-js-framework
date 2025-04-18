@@ -1,6 +1,6 @@
 const assert = require('assert');
-const { ApiResponseManager, runInParallel } = require('./utils/apiResponse');
-const {verifyResponse, verifyStatusCode, verifyHeaderDate} = require('./utils/resultManager');
+const { ApiResponseManager, runInParallel } = require('../../utils/apiResponse');
+const {verifyResponse, verifyStatusCode, verifyHeaderDate} = require('../../utils/resultManager');
 const { expect } = require('chai');
 const each = require('mocha-each');
 const { config } = require('process');
